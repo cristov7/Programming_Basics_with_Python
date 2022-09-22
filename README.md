@@ -17,6 +17,7 @@ Online judge system - https://judge.softuni.org/
 - While-Loop
 - Nested Loops
 
+
 - Exam Preparation
 - Preliminary Online Exam
 - Regular Online Exam
