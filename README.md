@@ -10,4 +10,13 @@ Online judge system - https://judge.softuni.org/
 
 # Table of Contents:
 
-- 
+- First Steps in Coding
+- Conditional Statements
+- Conditional Statements Advanced
+- For-Loop
+- While-Loop
+- Nested Loops
+
+- Exam Preparation
+- Preliminary Online Exam
+- Regular Online Exam
