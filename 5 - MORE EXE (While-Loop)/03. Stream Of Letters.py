@@ -1,54 +1,32 @@
-symbols = ["A", "a", "B", "b", "D", "d", "E", "e", "F", "f", "G", "g", "H", "h", "I", "i", "J", "j", "K", "k",
-           "L", "l", "M", "m", "P", "p", "Q", "q", "R", "r", "S", "s", "T", "t", "U", "u", "V", "v", "W", "w",
-           "X", "x", "Y", "y", "Z", "z"]
-count_c = 0
-count_o = 0
-count_n = 0
-text = ""
-while True:
-    symbol = input()
-    if symbol != "End":
-        if symbol == "c":
-            count_c += 1
-            if count_c == 1:
-                if count_c > 0 and count_o > 0 and count_n > 0:
-                    text += " "
-                    count_c = 0
-                    count_o = 0
-                    count_n = 0
-                else:
-                    continue
+command = input()
+c_counter = 0
+o_counter = 0
+n_counter = 0
+word = ""
+while command != "End":
+    mustBeAdded = False
+    if 65 <= ord(command) <= 90 or 97 <= ord(command) <= 122:
+        if command == "c":
+            if c_counter >= 1:
+                word += command
             else:
-                text += symbol
-        elif symbol == "o":
-            count_o += 1
-            if count_o == 1:
-                if count_c > 0 and count_o > 0 and count_n > 0:
-                    text += " "
-                    count_c = 0
-                    count_o = 0
-                    count_n = 0
-                else:
-                    continue
+                c_counter += 1
+        elif command == "o":
+            if o_counter >= 1:
+                word += command
             else:
-                text += symbol
-        elif symbol == "n":
-            count_n += 1
-            if count_n == 1:
-                if count_c > 0 and count_o > 0 and count_n > 0:
-                    text += " "
-                    count_c = 0
-                    count_o = 0
-                    count_n = 0
-                else:
-                    continue
+                o_counter += 1
+        elif command == "n":
+            if n_counter >= 1:
+                word += command
             else:
-                text += symbol
+                n_counter += 1
         else:
-            if symbol in symbols:
-                text += symbol
-            else:
-                continue
-    else:   # symbol == "End":
-        print(text)
-        break
+            word += command
+        if c_counter >= 1 and o_counter >= 1 and n_counter >= 1:
+            print(f"{word}", end=" ")
+            word = ""
+            c_counter = 0
+            o_counter = 0
+            n_counter = 0
+    command = input()
