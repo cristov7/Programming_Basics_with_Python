@@ -20,3 +20,7 @@ Online judge system - https://judge.softuni.org/
 - Exam Preparation
 - Preliminary Online Exam
 - Regular Online Exam
+
+# Additional resources
+- Programming Basic with Python
+https://softuni.bg/trainings/3840/programming-fundamentals-with-python-september-2022
