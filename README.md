@@ -2,7 +2,7 @@
 
 In this repository there are solutions to tasks from the programming Basics course with Python of the software academy of SoftUni University.
 
-https://softuni.bg/trainings/3756/programming-basics-with-python-july-2022#lesson-40883
+https://softuni.bg/trainings/3756/programming-basics-with-python-july-2022
 
 Online judge system - https://judge.softuni.org/
 
@@ -22,5 +22,6 @@ Online judge system - https://judge.softuni.org/
 - Regular Online Exam
 
 # Additional resources
-*Programming Basics with Python
+- Programming Basics with Python
+
 https://softuni.bg/trainings/3756/programming-basics-with-python-july-2022
