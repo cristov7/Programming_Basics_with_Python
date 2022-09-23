@@ -22,4 +22,5 @@ Online judge system - https://judge.softuni.org/
 - Regular Online Exam
 
 # Additional resources
-@Programming Basics with Python
+*Programming Basics with Python
+https://softuni.bg/trainings/3756/programming-basics-with-python-july-2022
