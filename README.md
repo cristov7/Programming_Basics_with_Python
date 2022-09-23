@@ -21,6 +21,7 @@ Online judge system - https://judge.softuni.org/
 - Preliminary Online Exam
 - Regular Online Exam
 
+
 # Additional resources
 - Programming Basics with Python
 
