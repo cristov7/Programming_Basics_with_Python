@@ -16,7 +16,6 @@ Online judge system - https://judge.softuni.org/
 - For-Loop
 - While-Loop
 - Nested Loops
-- Drawing Figures with Loops
 - Exam Preparation
 - Preliminary Online Exam
 - Regular Online Exam
