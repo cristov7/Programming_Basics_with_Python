@@ -1,6 +1,6 @@
 # SoftUni - Programming Basics with Python - July 2022
 
-In this repository there are solutions to tasks from the programming Basics course with Python of the software academy of SoftUni University.
+In this repository there are solutions to tasks from the Programming Basics course with Python of the software academy of SoftUni University.
 
 https://softuni.bg/trainings/3756/programming-basics-with-python-july-2022
 
