@@ -21,7 +21,12 @@ Online judge system - https://judge.softuni.org/
 - Regular Online Exam
 
 
-# Additional resources
+# Additional resources:
 - Programming Basics with Python
 
 https://softuni.bg/trainings/3756/programming-basics-with-python-july-2022
+
+
+# Certificate of Programming Basics
+
+![Programming Basics](https://user-images.githubusercontent.com/114032977/231400630-d8bf27ba-0037-41f0-baa2-6ae3fae171a9.png)
